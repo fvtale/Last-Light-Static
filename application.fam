@@ -1,0 +1,13 @@
+App(
+    appid="last_light_static",
+    name="Last Light Static",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="last_light_static_app",
+    stack_size=4 * 1024,
+    fap_category="Games",
+    fap_description="Civic noir stealth puzzle slice",
+    fap_author="fvtale",
+    fap_weburl="https://github.com/fvtale/last-light-static",
+    fap_icon="icon_10x10.png",
+    fap_icon_assets="assets",
+)
